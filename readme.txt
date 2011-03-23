@@ -8,7 +8,7 @@ Requires at least: 3.1
 Tested up to: 3.1
 Stable tag: trunk
 
-A <strong>function</strong> for use in shortening URL links. This plugin is meant for dev work and does <em>not automatically</em> shorten URLs.
+A FUNCTION for use in shortening URL links. This plugin is meant for dev work and does not automatically shorten URLs.
 
 
 == Description ==
@@ -16,7 +16,7 @@ A <strong>function</strong> for use in shortening URL links. This plugin is mean
 **PHP 5.2 required.**
 
 Before:
-http://example.com/wp-content/themes/twentyten/style.css
+http;//example.com/wp-content/themes/twentyten/style.css
 
 After:
 /wp-content/themes/twentyten/style.css
