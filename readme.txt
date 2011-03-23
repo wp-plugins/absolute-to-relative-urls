@@ -25,7 +25,7 @@ If you are looking for a plugin that *automatically* converts absolute URLs to r
 
 I wrote this plugin because I needed a basepath for an Adobe Flash application. In other words, I needed a URL to the server root without the domain. You may find this useful for the same reason, or perhaps another.
 
-**Before you copy this code and add it into your own**, keep in mind that there may be future updates. Keeping the code within an activated plugin is often safer.
+**Before you copy this code and add it into your own**, keep in mind that there may be future updates. Keeping the code within an activated plugin will make sure you're notified.
 
 If you are looking for a solution to WordPress inserting absolute media URLs into your posts, you may want to check out **[Relative Image URLs](http://wordpress.org/extend/plugins/relative-image-urls/)**. 
 
