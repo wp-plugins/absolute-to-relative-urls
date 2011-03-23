@@ -8,7 +8,7 @@ Requires at least: 3.1
 Tested up to: 3.1
 Stable tag: trunk
 
-A **function** for use in shortening URL links. This plugin is meant for dev work and does *not automatically* shorten URLs.
+A <strong>function</strong> for use in shortening URL links. This plugin is meant for dev work and does <em>not automatically</em> shorten URLs.
 
 
 == Description ==
@@ -21,7 +21,7 @@ http://example.com/wp-content/themes/twentyten/style.css
 After:
 /wp-content/themes/twentyten/style.css
 
-If you are looking for a plugin that *automatically* converts absolute URLs to relative URLs, check out my other plugin **[WP-HTML-Compression](http://wordpress.org/extend/plugins/wp-html-compression/)**.
+If you are looking for a plugin that *automatically* converts absolute URLs to relative URLs, check out my other plugin **[WP-HTML-Compression](http://wordpress.org/extend/plugins/wp-html-compression/)** as it will soon have this feature.
 
 I wrote this plugin because I needed a basepath for an Adobe Flash application. In other words, I needed a URL to the server root without the domain. You may find this useful for the same reason, or perhaps another.
 
