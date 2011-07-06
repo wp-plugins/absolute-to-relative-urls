@@ -4,16 +4,14 @@ URL: http://www.svachon.com/
 Contact: prometh@gmail.com
 Contributors: prometh
 Tags: absolute, function, link, links, plugin, relative, shorten, url, urls
-Requires at least: 3.1
-Tested up to: 3.1
+Requires at least: 3.2
+Tested up to: 3.2
 Stable tag: trunk
 
 A FUNCTION for use in shortening URL links. This plugin is meant for dev work and does not automatically shorten URLs.
 
 
 == Description ==
-
-**PHP 5.2 required.**
 
 Before:
 http;//example.com/wp-content/themes/twentyten/style.css
@@ -48,11 +46,7 @@ Just use `absolute_to_relative_url($url)`.
 
 = Will this plugin work for WordPress version x.x.x? =
 
-This plugin has only been tested with versions of WordPress as early as 3.1. For anything older, you'll have to see for yourself.
-
-= Why do you only support a minimum of PHP 5.2? =
-
-It offers substantial improvements over earlier PHP 5 releases, and WordPress 3.2 will not be supporting anything less.
+This plugin has only been tested with versions of WordPress as early as 3.2. For anything older, you'll have to see for yourself.
 
 
 == Screenshots ==
