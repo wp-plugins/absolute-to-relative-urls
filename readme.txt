@@ -13,7 +13,7 @@ A **function()** for use in shortening URL links. This plugin is meant for dev w
 
 == Description ==
 
-If you were to use this on a website like *http://example.com/test/testing/*, you would get results like these:
+If you were to use this on a website like *http;//example.com/test/testing/*, you would get results like these:
 
 1. 
 	* **Before:** http;//example.com/test/another-test/#anchor
