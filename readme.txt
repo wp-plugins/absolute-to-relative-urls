@@ -17,7 +17,7 @@ If you were to run this code at *http;//example.com/test/testing/*, you would ge
 
 **Before:** http;//example.com/test/another-test/#anchor
 
-**After:** ../test/another-test/#anchor
+**After:** ../another-test/#anchor
 
 **Before:** http;//example.com/wp-content/themes/twentyten/style.css
 
