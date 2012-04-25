@@ -17,23 +17,23 @@ If you were to run this code at *http;//example.com/test/testing/*, you would ge
 
 * **Before:** http;//example.com/test/another-test/#anchor
 * **After:** ../another-test/#anchor
- 
+,
 * **Before:** http;//example.com/wp-content/themes/twentyten/style.css
 * **After:** /wp-content/themes/twentyten/style.css
- 
+,
 * **Before:** http*s*;//example.com/wp-content/themes/twentyten/style.css
 * **After:** http*s*;//example.com/wp-content/themes/twentyten/style.css
- 
+,
 * **Before:** http;//google.com/test/
 * **After:** http;//google.com/test/
- 
+,
 * **Before:** ../../../../../../../../#anchor
 * **After:** /#anchor
 * **After** (`$choose_shortest_path=false`)**:** ../../#anchor
 
 ***All string parsing. No directory browsing.***
 
-If you are looking for a plugin that will automatically convert *all* of the absolute URLs on your pages to relative URLs, check out my other plugin **[WP-HTML-Compression](http://wordpress.org/extend/plugins/wp-html-compression/)** as it has integrated this code.
+If you're looking for a plugin that will automatically convert *all* of the absolute URLs on your pages to relative URLs, check out my other plugin **[WP-HTML-Compression](http://wordpress.org/extend/plugins/wp-html-compression/)** as it has integrated this code.
 
 **Before you copy this code and add it into your own**, keep in mind that there will probably be future updates. Keeping the code within an installed plugin will make sure you're notified.
 
