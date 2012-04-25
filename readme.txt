@@ -17,16 +17,20 @@ If you were to run this code at *http;//example.com/test/testing/*, you would ge
 
 * **Before:** http;//example.com/test/another-test/#anchor
 * **After:** ../another-test/#anchor
-,
+
+
 * **Before:** http;//example.com/wp-content/themes/twentyten/style.css
 * **After:** /wp-content/themes/twentyten/style.css
-,
+
+
 * **Before:** http*s*;//example.com/wp-content/themes/twentyten/style.css
 * **After:** http*s*;//example.com/wp-content/themes/twentyten/style.css
-,
+
+
 * **Before:** http;//google.com/test/
 * **After:** http;//google.com/test/
-,
+
+
 * **Before:** ../../../../../../../../#anchor
 * **After:** /#anchor
 * **After** (`$choose_shortest_path=false`)**:** ../../#anchor
