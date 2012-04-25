@@ -8,7 +8,7 @@ Requires at least: 3.2
 Tested up to: 3.2
 Stable tag: trunk
 
-A **function()** `for` use in shortening URL links. This plugin is meant for dev work and does not automatically shorten URLs.
+A **function()** for use in shortening URL links. This plugin is meant for dev work and does not automatically shorten URLs.
 
 
 == Description ==
@@ -31,7 +31,7 @@ If you were to run this code at *http;//example.com/test/testing/*, you would ge
 
 **After:** http;//google.com/test/
 
-**All string parsing. No directory browsing.**
+***All string parsing. No directory browsing.***
 
 If you are looking for a plugin that will automatically convert *all* of the absolute URLs on your pages to relative URLs, check out my other plugin **[WP-HTML-Compression](http://wordpress.org/extend/plugins/wp-html-compression/)** as it has integrated this code.
 
