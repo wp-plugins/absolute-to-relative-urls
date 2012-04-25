@@ -24,7 +24,9 @@ If you were to run this code at *http;//example.com/test/testing/*, you would ge
 **Before:** http*s*;//example.com/wp-content/themes/twentyten/style.css
 **After:** http*s*;//example.com/wp-content/themes/twentyten/style.css
 
+
 **Before:** http;//google.com/test/
+
 **After:** http;//google.com/test/
 
 All string parsing. No directory browsing.
