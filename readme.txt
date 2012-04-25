@@ -32,7 +32,7 @@ If you were to run this code at *http;//example.com/test/testing/*, you would ge
 	* **After:** /#anchor
 	* **After** (`$choose_shortest_path=false`)**:** ../../#anchor
 
-***All string parsing. No directory browsing.***
+**All string parsing. *No* directory browsing.**
 
 If you're looking for a plugin that will automatically convert *all* of the absolute URLs on your pages to relative URLs, check out my other plugin **[WP-HTML-Compression](http://wordpress.org/extend/plugins/wp-html-compression/)** as it has integrated this code.
 
