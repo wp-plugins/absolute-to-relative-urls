@@ -15,9 +15,8 @@ A **function()** for use in shortening URL links. This plugin is meant for dev w
 
 If you were to run this code at *http;//example.com/test/testing/*, you would get these results:
 
-**Before:** http;//example.com/test/another-test/#anchor
-
-**After:** ../another-test/#anchor
+* **Before:** http;//example.com/test/another-test/#anchor
+* **After:** ../another-test/#anchor
 
 **Before:** http;//example.com/wp-content/themes/twentyten/style.css
 
@@ -30,6 +29,12 @@ If you were to run this code at *http;//example.com/test/testing/*, you would ge
 **Before:** http;//google.com/test/
 
 **After:** http;//google.com/test/
+
+**Before:** ../../../../../../../../#anchor
+
+**After:** /#anchor
+
+**After** (`$choose_shortest_path=false`)**:** ../../#anchor
 
 ***All string parsing. No directory browsing.***
 
