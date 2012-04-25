@@ -8,14 +8,14 @@ Requires at least: 3.2
 Tested up to: 3.2
 Stable tag: trunk
 
-A **FUNCTION** *for* use in shortening URL links. This plugin is meant for dev work and does not automatically shorten URLs.
+A **manual function** for use in shortening URL links. This plugin is meant for dev work and does not automatically shorten URLs.
 
 
 == Description ==
 
 If you were to run this code at *http;//example.com/test/testing/*, you would get these results:
 
-**Before:** http;//example.com/test/another-test/#anchor
+**Before:** http://example.com/test/another-test/#anchor
 
 **After:** ../test/another-test/#anchor
 
