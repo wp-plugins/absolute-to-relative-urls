@@ -27,11 +27,10 @@ If you were to use this on a website like *http;//example.com/test/testing/*, yo
 4. 
 	* **Before:** http;//google.com/test/
 	* **After:** //google.com/test/
-	* **After** (`$choose_shortest=false`)**:** http;//google.com/test/
 5. 
 	* **Before:** ../../../../../../../../#anchor
 	* **After:** /#anchor
-	* **After** (`$choose_shortest=false`)**:** ../../#anchor
+	* **After** (`$output_type=1`)**:** ../../#anchor
 
 **All string parsing. *No* directory browsing.**
 
