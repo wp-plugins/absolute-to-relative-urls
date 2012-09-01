@@ -2,7 +2,7 @@
 /*
 Plugin Name: Absolute-to-Relative URLs
 Plugin URI: http://www.svachon.com/
-Description: A <strong>function</strong> for use in shortening URL links. Just use <code><strong>absolute_to_relative_url</strong>( string <em>$url</em> [, bool <em>$ignore_www</em> = <em>true</em> [, bool <em>$choose_shortest</em> = <em>true</em>]] )</code>.
+Description: A <strong>function</strong> for use in shortening URL links. Just use <code><strong>absolute_to_relative_url</strong>( string <em>$url</em> [, bool <em>$ignore_www</em> = <em>false</em> [, bool <em>$output_type</em> = <em>2</em>]] )</code>.
 Version: 0.3.1
 Author: Steven Vachon
 Author URI: http://www.svachon.com/
