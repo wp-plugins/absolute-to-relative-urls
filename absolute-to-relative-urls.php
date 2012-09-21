@@ -1,14 +1,13 @@
 <?php
 /*
 Plugin Name: Absolute-to-Relative URLs
-Plugin URI: http://www.svachon.com/
-Description: A <strong>function</strong> for use in shortening URL links. Just use <code><strong>absolute_to_relative_url</strong>( string <em>$url</em> [, bool <em>$ignore_www</em> = <em>false</em> [, int <em>$output_type</em> = <em>2</em>]] )</code>.
+Plugin URI: http://www.svachon.com/blog/absolute-to-relative-urls/
+Description: A <strong>function</strong> for use in shortening URL links. Just use <code><strong>absolute_to_relative_url</strong>( string <em>$url</em> [, bool <em>$ignore_www</em> = <em>true</em> [, bool <em>$choose_shortest</em> = <em>true</em>]] )</code>.
 Version: 0.3.1
 Author: Steven Vachon
 Author URI: http://www.svachon.com/
-Author Email: prometh@gmail.com
+Author Email: contact@svachon.com
 */
-
 
 class Absolute_to_Relative_URLs
 {

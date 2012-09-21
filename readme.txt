@@ -1,11 +1,11 @@
 === Absolute-to-Relative URLs ===
 Author: Steven Vachon
 URL: http://www.svachon.com/
-Contact: prometh@gmail.com
+Contact: contact@svachon.com
 Contributors: prometh
 Tags: absolute, function, link, links, plugin, relative, shorten, url, urls
 Requires at least: 3.2
-Tested up to: 3.4.1
+Tested up to: 3.4.2
 Stable tag: trunk
 
 A **function()** for use in shortening URL links. This plugin is meant for dev work and does not automatically shorten URLs.
