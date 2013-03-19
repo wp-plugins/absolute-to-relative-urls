@@ -3,7 +3,7 @@ Author: Steven Vachon
 URL: http://www.svachon.com/
 Contact: contact@svachon.com
 Contributors: prometh
-Tags: absolute, function, link, links, plugin, relative, shorten, url, urls
+Tags: absolute, function, link, links, plugin, relative, shorten, uri, url, urls
 Requires at least: 3.2
 Tested up to: 3.4.2
 Stable tag: trunk
