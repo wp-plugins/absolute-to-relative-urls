@@ -3,7 +3,7 @@
 Plugin Name: Absolute-to-Relative URLs
 Plugin URI: http://www.svachon.com/blog/absolute-to-relative-urls/
 Description: A <strong>function</strong> for use in shortening URL links. Just use <code><strong>absolute_to_relative_url</strong>( string <em>$url</em> [, bool <em>$ignore_www</em> = <em>true</em> [, bool <em>$choose_shortest</em> = <em>true</em>]] )</code>.
-Version: 0.3.1
+Version: 0.3.2
 Author: Steven Vachon
 Author URI: http://www.svachon.com/
 Author Email: contact@svachon.com
@@ -312,7 +312,12 @@ class Absolute_to_Relative_URLs
 	*/
 	protected function parse_url($url, $init=false)
 	{
-		if (strpos($url, '//') === 0)
+		if (strpos($url, 'data:') === 0)
+		{
+			// Nothing can be done with a data URI
+			return false;
+		}
+		else if (strpos($url, '//') === 0)
 		{
 			// Cannot parse scheme-relative URLs with parse_url
 			$url = $this->site_url['scheme'] . ':' . $url;
@@ -473,7 +478,7 @@ class Absolute_to_Relative_URLs
 			
 			if ($url === false)
 			{
-				// Unknown format
+				// Unusable format
 				return $original_url;
 			}
 		}
@@ -621,4 +626,7 @@ function absolute_to_relative_url($url, $ignore_www=false, $output_type=2)
 	
 	return $absolute_to_relative_url_instance->relate_url($url, $ignore_www, $output_type);
 }
+
+
+
 ?>
