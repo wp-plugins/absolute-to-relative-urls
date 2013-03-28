@@ -1,7 +1,12 @@
 <?php
 /*
-Absolute-to-Relative URLs 0.3.3 <http://www.svachon.com/blog/absolute-to-relative-urls/>
-A class for use in shortening URL links.
+Plugin Name: Absolute-to-Relative URLs
+Plugin URI: http://www.svachon.com/blog/absolute-to-relative-urls/
+Description: A <strong>function</strong> for use in shortening URL links. Just use <code><strong>absolute_to_relative_url</strong>( string <em>$url</em> [, bool <em>$ignore_www</em> = <em>true</em> [, bool <em>$choose_shortest</em> = <em>true</em>]] )</code>.
+Version: 0.3.4
+Author: Steven Vachon
+Author URI: http://www.svachon.com/
+Author Email: contact@svachon.com
 */
 
 class Absolute_to_Relative_URLs
@@ -465,6 +470,10 @@ class Absolute_to_Relative_URLs
 			else if ($url === '/')
 			{
 				return '/';
+			}
+			else if ($url === '#')
+			{
+				return '#';
 			}
 			
 			$original_url = $url;
